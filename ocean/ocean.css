@@ -1,0 +1,39 @@
+#container-countdown {
+    display: flex;
+    justify-content: center;
+    }
+    
+    #countdown-ocean {
+        font-size: 60px;
+        margin-top: 100px;
+        background: linear-gradient(to right, #73A9AD, #f0f3f5);
+        border-radius: 20px;
+        padding: 20px;
+        font-family: 'Great Vibes', cursive;
+        color: #025464;
+    }
+    #myVideo{
+        position: fixed;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -10;
+    }
+    #myButton {
+        display: none;
+    }
+    @media all and (max-width: 500px){
+        #myButton {
+            display: block;
+            padding: 10px;
+            background: linear-gradient(to right, #73A9AD, #f0f3f5);
+            border-radius: 20px;
+            font-family: 'Great Vibes', cursive;
+            color: #025464;
+            font-size: 25px;
+        }
+        body {
+            background: linear-gradient(to right, #73A9AD, #f0f3f5);
+        }
+    }
